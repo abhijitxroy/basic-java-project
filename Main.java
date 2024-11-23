@@ -17,7 +17,7 @@ public class Main {
 		Period customPeriod = Period.between(customDate, curentDate);
 		System.out.println("Age : " + customPeriod.getYears() + " years, " + customPeriod.getMonths() + " months and "
 				+ customPeriod.getDays() + " days.");
-		System.out.println("You are : " + customPeriod.getYears() + " years old.");
+		System.out.println("You are " + customPeriod.getYears() + " years old.");
 
 	}
 }
